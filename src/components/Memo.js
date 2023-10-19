@@ -19,7 +19,7 @@ function Memo(){
     return (
         <div id="main">
             <h1>My Todo</h1>
-            <p>New Todo</p>
+            <p id="todo-0">New Todo</p>
             <button id="add-todo-btn" onClick={handeTodo}>Add Todo</button>
             <p>Count:{count} <button id="incr-cnt" onClick={handleCount}>+</button></p>
             <hr></hr>
