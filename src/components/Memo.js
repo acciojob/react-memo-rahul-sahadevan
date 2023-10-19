@@ -29,7 +29,7 @@ function Memo(){
                 {
                    searchval.map((item) =>{
                     return (
-                        <li>{item}</li>
+                        <li id="item-jumbotron">{item}</li>
                     )
                    })
                 }
