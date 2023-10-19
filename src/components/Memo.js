@@ -17,13 +17,13 @@ function Memo(){
     }
 
     return (
-        <div>
+        <div id="main">
             <h1>My Todo</h1>
             <p>New Todo</p>
-            <button onClick={handeTodo}>Add Todo</button>
-            <p>Count:{count} <button onClick={handleCount}>+</button></p>
+            <button id="add-todo-btn" onClick={handeTodo}>Add Todo</button>
+            <p>Count:{count} <button id="incr-ctn" onClick={handleCount}>+</button></p>
             <hr></hr>
-            <input type="text" onChange={(e) => setSearch(e.target.value)} ></input>
+            <input type="text" id="skill-input" onChange={(e) => setSearch(e.target.value)} ></input>
             <button onClick={handleSearch}>Add Skills</button>
             <ul>
                 {
