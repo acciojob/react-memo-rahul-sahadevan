@@ -21,10 +21,10 @@ function Memo(){
             <h1>My Todo</h1>
             <p>New Todo</p>
             <button id="add-todo-btn" onClick={handeTodo}>Add Todo</button>
-            <p>Count:{count} <button id="incr-ctn" onClick={handleCount}>+</button></p>
+            <p>Count:{count} <button id="incr-cnt" onClick={handleCount}>+</button></p>
             <hr></hr>
             <input type="text" id="skill-input" onChange={(e) => setSearch(e.target.value)} ></input>
-            <button onClick={handleSearch}>Add Skills</button>
+            <button id="skill-btn" onClick={handleSearch}>Add Skills</button>
             <ul>
                 {
                    searchval.map((item) =>{
