@@ -1,2 +1,11 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React from "react";
+import Memo from "./Memo";
 
+function App(){
+    return (
+        <div>
+            <Memo/>
+        </div>
+    )
+}
+export default App;
